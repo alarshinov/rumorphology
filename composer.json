@@ -1,0 +1,26 @@
+{
+    "name": "express/rumorphology",
+    "description": "ruMorphology - morphological analyzer library for Russisan language.",
+    "keywords": [
+        "ruMorphology"
+    ],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [{
+        "name": "Express Team",
+        "email": "support@express.isource.ru",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "libs/phpmorphy/src/common.php",
+            "libs/phpmorphy/src/"
+        ],
+        "psr-4": {
+            "cijic\\phpMorphy\\": "src"
+        }
+    }
+}
